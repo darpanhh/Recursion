@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-// Tail recursive function
+
 int factorialTail(int n, int result = 1) {
     if (n == 0 || n == 1)
         return result;
